@@ -1,4 +1,4 @@
-# blog.agibank - Automação de testes
+# Automação de testes - blog.agibank
 
 Este repositório contém uma suíte de testes automatizados desenvolvidos em Java usando Selenium WebDriver e JUnit para validar a funcionalidade de pesquisa no site Blog do Agi. O projeto inclui testes de funcionalidade e segurança, como SQL Injection.
 
