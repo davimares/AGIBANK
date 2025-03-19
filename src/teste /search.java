@@ -23,10 +23,10 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Classe de testes automatizados para a funcionalidade de pesquisa do Blog do Agi.
  */
-@DisplayName("Testes automatizados da funcionalidade de pesquisa")
+@DisplayName("Testes do campo de pesquisa")
 public class SearchTests {
 
-    private static final String BLOG_URL = "https://blogdoagi.com.br/";
+    private static final String BLOG_URL = "https://blog.agibank.com.br/";
     private static final String LUPA_PESQUISA_XPATH = "//*[@id=\"ast-desktop-header\"]/div[1]/div/div/div/div[3]/div[2]/div/div/a";
     private static final String SEARCH_FIELD_CLASS = "//*[@id=\"search-field\"]";
     private static final String NO_RESULTS_CLASS = "no-results";
@@ -80,7 +80,7 @@ public class SearchTests {
 
     @AfterEach
     public void tearDown() {
-        // Fecha o navegador após cada teste
+        // Fecha o navegador
         if (driver != null) {
             driver.quit();
         }
@@ -96,7 +96,7 @@ public class SearchTests {
         rolarPaginaParaResultadosAdicionais();
         boolean termoEncontrado = verificarResultados(termoDePesquisa);
 
-        // Verifica se o termo de pesquisa foi encontrado em todos os artigos
+        // Verifica se o termo de pesquisa foi encontrado
         assertTrue(termoEncontrado, "O termo de pesquisa não foi encontrado em pelo menos 1 dos resultados.");
     }
 
@@ -108,7 +108,7 @@ public class SearchTests {
         acessarBlog();
         realizarPesquisa(termoDePesquisa);
 
-        // Verifica se nenhum artigo foi retornado e se a mensagem de "não encontrado" foi exibida corretamente
+        // Verifica se a mensagem de não encontrado foi exibida corretamente
         assertEquals(0, verificarNumeroDeArtigosRetornados());
         assertTrue(verificarMensagemNaoEncontrado(), "Mensagem de artigo não encontrado não foi exibida corretamente");
     }
