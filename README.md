@@ -14,7 +14,7 @@ Este repositório contém uma suíte de testes automatizados desenvolvidos em Ja
 1. **Clonar o repositório:**
 
 ```bash
-  git clone https://github.com/RBoker/agi-test.git
+  git clone https://github.com/davimares/AGIBANK.git
 ```
 2. **Instalar as dependências:**
 
