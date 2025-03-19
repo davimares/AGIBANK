@@ -62,7 +62,7 @@ public class SearchTests {
     @Test
     @DisplayName("Pesquisar um termo existente")
     public void testPesquisarUmTermoExistente() {
-        termoDePesquisa = "financiamento";
+        termoDePesquisa = "banco";
 
         acessarBlog();
         realizarPesquisa(termoDePesquisa);
@@ -70,20 +70,20 @@ public class SearchTests {
         boolean termoEncontrado = verificarResultados(termoDePesquisa);
 
         // Verifica se o termo de pesquisa foi encontrado
-        assertTrue(termoEncontrado, "O termo de pesquisa não foi encontrado em pelo menos 1 dos resultados.");
+        assertTrue(termoEncontrado, "Pesquisa não foi encontrada");
     }
 
     @Test
     @DisplayName("Pesquisar um termo inexistente")
     public void testPesquisarUmTermoInexistente() {
-        termoDePesquisa = "basculho";
+        termoDePesquisa = "asdasdasd";
 
         acessarBlog();
         realizarPesquisa(termoDePesquisa);
 
         // Verifica se a mensagem de não encontrado foi exibida corretamente
         assertEquals(0, verificarNumeroDeArtigosRetornados());
-        assertTrue(verificarMensagemNaoEncontrado(), "Mensagem de artigo não encontrado não foi exibida corretamente");
+        assertTrue(verificarMensagemNaoEncontrado(), "Mensagem de artigo não encontrada");
     }
 
     @Test
