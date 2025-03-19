@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f09f436a-a28c-402b-bb1a-630610bfb9d1" name="Changes" comment="Renomeação do Workflow" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2kbWC44gO7wT228n0cAzQaRhGUB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projetos IntelliJ/playwright-for-java-demo&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.SearchTests (1)">
+    <configuration name="SearchTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AgiBlogSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rboker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rboker" />
+      <option name="MAIN_CLASS_NAME" value="com.rboker.SearchTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AgiBlogSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rboker.blogdoagi.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rboker.blogdoagi.search" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rboker.blogdoagi.search.SearchTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.testPesquisarUmTermoExistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AgiBlogSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rboker.blogdoagi.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rboker.blogdoagi.search" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rboker.blogdoagi.search.SearchTests" />
+      <option name="METHOD_NAME" value="testPesquisarUmTermoExistente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.testPesquisarUmTermoExistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AgiBlogSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rboker.blogdoagi.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rboker.blogdoagi.search" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rboker.blogdoagi.search.SearchTests" />
+      <option name="METHOD_NAME" value="testPesquisarUmTermoExistente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.testSqlInjectionInSearchField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AgiBlogSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rboker.blogdoagi.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rboker.blogdoagi.search" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rboker.blogdoagi.search.SearchTests" />
+      <option name="METHOD_NAME" value="testSqlInjectionInSearchField" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgiBlogSearch [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SearchTests (1)" />
+        <item itemvalue="JUnit.SearchTests" />
+        <item itemvalue="Maven.AgiBlogSearch [test]" />
+        <item itemvalue="JUnit.SearchTests.testSqlInjectionInSearchField" />
+        <item itemvalue="JUnit.SearchTests.testPesquisarUmTermoExistente" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f09f436a-a28c-402b-bb1a-630610bfb9d1" name="Changes" comment="" />
+      <created>1723552628319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723552628319</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Commit inicial do projeto">
+      <created>1723615091860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723615091860</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Alteração no README.md">
+      <created>1723616491996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723616491996</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Alteração no workspace.xml">
+      <created>1723617147461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723617147461</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Alteração no workspace.xml">
+      <created>1723619277268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723619277268</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Alteração no workspace.xml">
+      <created>1723619516113</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723619516113</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit inicial do projeto">
+      <created>1723649822186</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723649822186</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Alterações no pom.xml e workspace.xml">
+      <created>1723652275915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723652275915</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Alterações no workspace.xml">
+      <created>1723653505717</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723653505717</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Alterações no workspace.xml">
+      <created>1723654369113</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723654369113</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Alterações no workspace.xml">
+      <created>1723654628933</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723654628933</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Alterações no workspace.xml">
+      <created>1723655092437</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723655092437</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Alterações no workspace.xml">
+      <created>1723655170341</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723655170341</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Alterações no workspace.xml">
+      <created>1723657589166</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723657589166</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Alterações no pom.xml">
+      <created>1723657914045</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723657914045</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Alterações no pom.xml">
+      <created>1723658224416</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723658224416</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Alterações no pom.xml">
+      <created>1723658546974</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723658546974</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Alterações no pom.xml">
+      <created>1723660725756</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723660725756</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Alterações no pom.xml">
+      <created>1723662122234</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723662122234</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Alterações no pom.xml">
+      <created>1723662936658</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723662936658</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Alterações no pom.xml">
+      <created>1723663074021</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723663074021</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Alterações no pom.xml">
+      <created>1723663716785</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723663716785</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Alterações no pom.xml">
+      <created>1723664573394</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723664573394</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Alterações no pom.xml">
+      <created>1723731743011</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723731743011</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Atualização do README.MD">
+      <created>1723732035694</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723732035694</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Atualização do maven.yaml">
+      <created>1724953107270</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1724953107270</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Alteração das opções do Chrome">
+      <created>1724954194557</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1724954194557</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Atualização da versõ do Selenium">
+      <created>1724954776081</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1724954776081</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Atualização das opções do Chrome">
+      <created>1724955342866</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1724955342866</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Atualização das opções do Chrome">
+      <created>1724955489318</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1724955489318</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Correção do ElementNotInteractable element not interactable e update to a Selenium version that supports CDP version 128">
+      <created>1724956880299</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1724956880299</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Correção do tempo do FluentWait">
+      <created>1724957593895</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1724957593895</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Correção do tempo do FluentWait">
+      <created>1724957938984</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1724957938984</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Correção do tempo do FluentWait">
+      <created>1724958181309</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1724958181309</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Inclusão do maven plugin enforce">
+      <created>1724958637599</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1724958637599</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Correção do tempo do FluentWait">
+      <created>1724959186697</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1724959186697</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Adição do maven-enforcer-plugin">
+      <created>1724959931426</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1724959931426</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Adição do maven-enforcer-plugin">
+      <created>1724960277455</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1724960277455</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Renomeação do Workflow">
+      <created>1724961915226</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1724961915226</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Alteração no README.md" />
+    <MESSAGE value="Alteração no workspace.xml" />
+    <MESSAGE value="Commit inicial do projeto" />
+    <MESSAGE value="Alterações no pom.xml e workspace.xml" />
+    <MESSAGE value="Alterações no workspace.xml" />
+    <MESSAGE value="Alterações no pom.xml" />
+    <MESSAGE value="Atualização do README.MD" />
+    <MESSAGE value="Atualização do maven.yaml" />
+    <MESSAGE value="Alteração das opções do Chrome" />
+    <MESSAGE value="Atualização da versõ do Selenium" />
+    <MESSAGE value="Atualização das opções do Chrome" />
+    <MESSAGE value="Correção do ElementNotInteractable element not interactable e update to a Selenium version that supports CDP version 128" />
+    <MESSAGE value="Inclusão do maven plugin enforce" />
+    <MESSAGE value="Correção do tempo do FluentWait" />
+    <MESSAGE value="Adição do maven-enforcer-plugin" />
+    <MESSAGE value="Renomeação do Workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renomeação do Workflow" />
+  </component>
+</project>
